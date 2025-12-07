@@ -19,35 +19,34 @@
         <nav></nav>
     </header>
     <main>
-        <section class="conteiner">
+        <section class="conteiner m-5 py-5">
             <h1 class="text-center"> contacto</h1>
             <hr>
-            <article class="">
-                <form action="">
-                    <div class="row ">
-                        <div class="col">
-                            <label for="name">Nombre</label>
-                            <input type="text" class="form-control completar"  placeholder="Ej:Pablo" minlength="3" required
-                                aria-describedby="namehelp" maxlength="20" aria-label="First name">
-                            <div id="namehelp"  class="form-text">
-                                Este campo tiene como minimo 3 caracteresy como maximo 20 caracteres
-
-                            </div>
+            <form action="row g-3">
+                <div class="row mx-5 ">
+                    <div class="col-md-5">
+                        <label for="name">Nombre</label>
+                        <input type="text" class="form-control completar" placeholder="Ej:Pablo" minlength="3" required
+                            aria-describedby="namehelp" maxlength="20" aria-label="First name">
+                        <div id="namehelp" class="form-text">
+                            Este campo tiene como minimo 3 caracteresy como maximo 20 caracteres
 
                         </div>
-                        <div class="col-md-6">
-                            <label for="surname">Apellido</label>
-                            <input type="text" class="form-control" placeholder="Ej:Ruiz"
-                                aria-describedby="lastnamehelp" required minlength="4" maxlength="25">
 
-                            <div id="lastnamehelp" class="form-text">
-                                Este campo tiene como minimmo 4 caracteres y como maximo 25 caracteres.
+                    </div>
+                    <div class="col-md-5">
+                        <label for="surname">Apellido</label>
+                        <input type="text" class="form-control" placeholder="Ej:Ruiz" aria-describedby="lastnamehelp"
+                            required minlength="3" maxlength="25">
 
-                            </div>
+                        <div id="lastnamehelp" class="form-text">
+                            Este campo tiene como minimmo 3 caracteres y como maximo 25 caracteres.
+
                         </div>
+                    </div>
 
-                        <div class="col-md-6">
-                             <label for="exampleDataList" class="form-label">Provincia</label>
+                    <div class="col-5">
+                        <label for="exampleDataList" class="form-label">Provincia</label>
                         <input class="form-control" list="datalistOptions" id="exampleDataList"
                             required="Type to search...">
                         <datalist id="datalistOptions">
@@ -57,20 +56,24 @@
                             <option value="Salta">
                             <option value="Tucuman">
                         </datalist>
-                        </div>
-
-                    
-                        <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" aria-describedby="texthelp"
-                                required maxlength="400" minlength="50" rows="3"></textarea>
-                        </div>
-                        <div id="texthelp" class="form-text">
-                            este campo tiene como minimo 50 caracteres y como maximo 400
-                        </div>
                     </div>
-                </form>
-            </article>
+
+
+                    <div class="col-10">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" aria-describedby="texthelp"
+                            required maxlength="400" minlength="50" rows="3"></textarea>
+                    </div>
+                    <div id="texthelp" class="form-text">
+                        este campo tiene como minimo 50 caracteres y como maximo 400
+                    </div>
+
+                    <div class="col-2 ">
+                        <button class="btn btn-primary w-100" type="submit">Enviar mensaje</button>
+                    </div>
+                </div>
+            </form>
+
         </section>
     </main>
     <footer></footer>
