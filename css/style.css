@@ -1,0 +1,88 @@
+:root {
+    --color-fondo: #0c141a;
+    --color-form: #4c4c54;
+    --color-boton: #238234;
+    --color-texto: #ffffff;
+    --color-link: #256fd5;
+    --color-borde: #505050;
+    --color-input-fondo: #0d1117;
+    --color-input-borde: #30363d;
+    --color-input-focus: #256fd5;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-logo{
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+}
+
+.img-login{
+    width: 200px;
+    height: 200px;
+}
+
+.main-login{
+    background-color: var(--color-fondo);
+    height: 200vh;
+}
+
+.contenedor-form-login{
+    height: 150vh;
+    background-color: var(--color-fondo);
+    align-items: center;
+    color: var(--color-texto);
+}
+
+.button-form-login{
+    background-color: var(--color-boton);
+    border: none;
+    width: 100%;
+}
+
+.button-crear-cuenta{
+    border: 1px solid var(--color-borde);
+    width: 30%;
+    padding: 20px;
+    border-radius: 6px;
+    align-items: center;
+}
+
+.form-login{
+    background-color: var(--color-form);
+    width: 30%;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.Register-PagLogin{
+    color: var(--color-link);
+    text-decoration: none;
+}
+
+.form-control {
+    background-color: var(--color-input-fondo) !important;
+    border: 1px solid var(--color-input-borde) !important;
+    color: var(--color-texto) !important;
+    border-radius: 6px !important;
+    padding: 10px !important;
+    box-shadow: none !important;
+    transition: border 0.15s ease, box-shadow 0.15s ease;
+}
+
+.form-control:focus {
+    border-color: var(--color-input-focus) !important;
+    box-shadow: 0 0 0 3px rgba(37, 111, 213, 0.3) !important;
+    outline: none !important;
+}
+
+.text-login{
+    color: var(--color-form);
+    padding: 10px;
+    padding-top:30px ;
+}
