@@ -28,6 +28,7 @@
 .botonVolver {
     background-color: rgb(255, 255, 255); 
     color: black;
+}
 .header-logo {
     display: flex;
     justify-content: center;
