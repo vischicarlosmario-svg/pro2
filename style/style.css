@@ -95,4 +95,8 @@
 .text-login {
     color: var(--color-form);
     padding: 10px;
+@media all and (max-width: 767px) {
+    #logo {
+        display: none;
+    }
 }
