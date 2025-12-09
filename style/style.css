@@ -62,7 +62,10 @@
     border-radius: 6px;
     align-items: center;
 }
-
+.mb-3 {
+    display: flex !important;
+    flex-direction: column !important;
+}
 .form-login {
     background-color: var(--color-form);
     width: 30%;
@@ -76,7 +79,7 @@
     text-decoration: none;
 }
 
-.form-control {
+.form-control-login{
     background-color: var(--color-input-fondo) !important;
     border: 1px solid var(--color-input-borde) !important;
     color: var(--color-texto) !important;
@@ -86,7 +89,7 @@
     transition: border 0.15s ease, box-shadow 0.15s ease;
 }
 
-.form-control:focus {
+.form-control-login:focus {
     border-color: var(--color-input-focus) !important;
     box-shadow: 0 0 0 3px rgba(37, 111, 213, 0.3) !important;
     outline: none !important;
@@ -95,6 +98,7 @@
 .text-login {
     color: var(--color-form);
     padding: 10px;
+}
 @media all and (max-width: 767px) {
     #logo {
         display: none;
