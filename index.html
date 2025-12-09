@@ -12,24 +12,39 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="shortcut icon" href="./assets/img/1.png" type="image/x-icon">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css">
 </head>
 
-<body>
+<body class="body-main">
     <header>
-        <nav class="navbar bg-primary">
-            <div class="container-fluid justify-content-around">
-                <a class="navbar-brand text-light">Tiendamania</a>
-                <div class="d-flex justify-content-evenly m-1" role="search">
+        <nav class="navbar bg-primary nav-main fixed-top">
+            <div class="container-fluid d-flex align-items-center">
+                <a href="index.html">
+                    <div class="d-flex text-center justify-content-center flex-grow-1 nav-main-img">
+                    </div>
+                </a>
+                <div class="d-flex justify-content-center flex-grow-1 m-1" role="search">
                     <input class="form-control mx-1" type="search" placeholder="Buscar producto" aria-label="Search" />
-                    <a class="mx-1 text-light text-decoration-none" href="../pro2/pages/" target="_blank">Registro</a>
-                    <a class="mx-1 text-light text-decoration-none" href="../pro2/pages/" target="_blank">Compras</a>
-                    <a class="mx-1 text-light text-decoration-none" href="pages/contacto.html"
-                        target="_blank">Contacto</a>
-                    <a class="mx-1 text-light text-decoration-none" href="pages/nosotros.html"
-                        target="_blank">Nosotros</a>
+                </div>
+                <div class="d-flex flex-row justify-content-center flex-grow-1">
+                    <a class="mx-1 text-light text-decoration-none" href="pages/carrito.html" target="_blank"><i
+                            class="bi bi-basket2-fill icono-header"></i></a>
+                    <a class="mx-1 text-light text-decoration-none" href="pages/contacto.html" target="_blank"><i
+                            class="bi bi-info-circle icono-header"></i></a>
+                    <a class="mx-1 text-light text-decoration-none" href="pages/login.html" target="_blank"><i
+                            class="bi bi-person-circle icono-header"></i></a>
                 </div>
             </div>
         </nav>
+        <div class="barra-abajo-nav">
+            <p><i class="bi bi-fire oferta-main">Ofertas</i></p>
+            <p>Indumentaria</p>
+            <p>Hombre</p>
+            <p>Mujer</p>
+            <p>Niños</p>
+            <p>Mas</p>
+        </div>
     </header>
     <main>
 
@@ -72,22 +87,161 @@
 
 
 
+                <button class="carousel-control-next" type="button" data-bs-target="#miCarrusel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center text-center">
+            <div class="card card-main-header m-3">
+                <img src="assets/img/CalzadoOferta.png" class="card-img-top w-100 img-main" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">50% de descuento</h5>
+                    <a href="#" class="btn btn-primary button-card-login">Ir a oferta</a>
+                </div>
+            </div>
+            <div class="card card-main-header m-3">
+                <img src="assets/img/CalzadoOferta.png" class="card-img-top w-100 img-main" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">50% de descuento</h5>
+                    <a href="#" class="btn btn-primary button-card-login">Ir a oferta</a>
+                </div>
+            </div>
+            <div class="card card-main-header m-3">
+                <img src="assets/img/CalzadoOferta.png" class="card-img-top w-100 img-main" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">50% de descuento</h5>
+                    <a href="#" class="btn btn-primary button-card-login">Ir a oferta</a>
+                </div>
+            </div>
+            <div class="card card-main-header m-3">
+                <img src="assets/img/CalzadoOferta.png" class="card-img-top w-100 img-main" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">50% de descuento</h5>
+                    <a href="#" class="btn btn-primary button-card-login">Ir a oferta</a>
+                </div>
+            </div>
 
+        </div>
         <div class="container text-center">
             <div class="row">
-                <div class="col-sm-4">slide.</div>
-                <div class="col-sm-8">principal</div>
+                <div class="col-sm-3">slide.</div>
+                <div class="col-sm-9">
+                    <div>
+                        <h3 class="p-3">Productos Destacados</h3>
+                    </div>
+                    <div class="row g-3">
+                        <div class="card card-main m-3">
+                            <div class="card-body">
+                                <img src="assets/img/Zapatilla.png" class="card-img-top" alt="...">
+                                <h5 class="card-title">Zapatilla Adidas</h5>
+                                <p class="card-text">Zapatilla que te ayudan a correr mas comodo y mas rapido</p>
+                                <a href="#" class="btn btn-primary button-card-login">Seleccionar Talle</a>
+                            </div>
+                        </div>
+                        <div class="card card-main m-3">
+                            <div class="card-body">
+                                <img src="assets/img/Zapatilla.png" class="card-img-top" alt="...">
+                                <h5 class="card-title">Zapatilla Adidas</h5>
+                                <p class="card-text">Zapatilla que te ayudan a correr mas comodo y mas rapido</p>
+                                <a href="#" class="btn btn-primary button-card-login">Seleccionar Talle</a>
+                            </div>
+                        </div>
+                        <div class="card card-main m-3">
+                            <div class="card-body">
+                                <img src="assets/img/Zapatilla.png" class="card-img-top" alt="...">
+                                <h5 class="card-title">Zapatilla Adidas</h5>
+                                <p class="card-text">Zapatilla que te ayudan a correr mas comodo y mas rapido</p>
+                                <a href="#" class="btn btn-primary button-card-login">Seleccionar Talle</a>
+                            </div>
+                        </div>
+                        <div class="card card-main m-3">
+                            <div class="card-body">
+                                <img src="assets/img/Zapatilla.png" class="card-img-top" alt="...">
+                                <h5 class="card-title">Zapatilla Adidas</h5>
+                                <p class="card-text">Zapatilla que te ayudan a correr mas comodo y mas rapido</p>
+                                <a href="#" class="btn btn-primary button-card-login">Seleccionar Talle</a>
+                            </div>
+                        </div>
+                        <div class="card card-main m-3">
+                            <div class="card-body">
+                                <img src="assets/img/Zapatilla.png" class="card-img-top" alt="...">
+                                <h5 class="card-title">Zapatilla Adidas</h5>
+                                <p class="card-text">Zapatilla que te ayudan a correr mas comodo y mas rapido</p>
+                                <a href="#" class="btn btn-primary button-card-login">Seleccionar Talle</a>
+                            </div>
+                        </div>
+                        <div class="card card-main m-3">
+                            <div class="card-body">
+                                <img src="assets/img/Zapatilla.png" class="card-img-top" alt="...">
+                                <h5 class="card-title">Zapatilla Adidas</h5>
+                                <p class="card-text">Zapatilla que te ayudan a correr mas comodo y mas rapido</p>
+                                <a href="#" class="btn btn-primary button-card-login">Seleccionar Talle</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="p-3">Tienda Adidas</h3>
+                    </div>
+                    <div class="row g-3">
+                        <div class="card card-main m-3">
+                            <div class="card-body">
+                                <img src="assets/img/Zapatilla.png" class="card-img-top" alt="...">
+                                <h5 class="card-title">Zapatilla Adidas</h5>
+                                <p class="card-text">Zapatilla que te ayudan a correr mas comodo y mas rapido</p>
+                                <a href="#" class="btn btn-primary button-card-login">Seleccionar Talle</a>
+                            </div>
+                        </div>
+                        <div class="card card-main m-3">
+                            <div class="card-body">
+                                <img src="assets/img/Zapatilla.png" class="card-img-top" alt="...">
+                                <h5 class="card-title">Zapatilla Adidas</h5>
+                                <p class="card-text">Zapatilla que te ayudan a correr mas comodo y mas rapido</p>
+                                <a href="#" class="btn btn-primary button-card-login">Seleccionar Talle</a>
+                            </div>
+                        </div>
+                        <div class="card card-main m-3">
+                            <div class="card-body">
+                                <img src="assets/img/Zapatilla.png" class="card-img-top" alt="...">
+                                <h5 class="card-title">Zapatilla Adidas</h5>
+                                <p class="card-text">Zapatilla que te ayudan a correr mas comodo y mas rapido</p>
+                                <a href="#" class="btn btn-primary button-card-login">Seleccionar Talle</a>
+                            </div>
+                        </div>
+                        <div class="card card-main m-3">
+                            <div class="card-body">
+                                <img src="assets/img/Zapatilla.png" class="card-img-top" alt="...">
+                                <h5 class="card-title">Zapatilla Adidas</h5>
+                                <p class="card-text">Zapatilla que te ayudan a correr mas comodo y mas rapido</p>
+                                <a href="#" class="btn btn-primary button-card-login">Seleccionar Talle</a>
+                            </div>
+                        </div>
+                        <div class="card card-main m-3">
+                            <div class="card-body">
+                                <img src="assets/img/Zapatilla.png" class="card-img-top" alt="...">
+                                <h5 class="card-title">Zapatilla Adidas</h5>
+                                <p class="card-text">Zapatilla que te ayudan a correr mas comodo y mas rapido</p>
+                                <a href="#" class="btn btn-primary button-card-login">Seleccionar Talle</a>
+                            </div>
+                        </div>
+                        <div class="card card-main m-3">
+                            <div class="card-body">
+                                <img src="assets/img/Zapatilla.png" class="card-img-top" alt="...">
+                                <h5 class="card-title">Zapatilla Adidas</h5>
+                                <p class="card-text">Zapatilla que te ayudan a correr mas comodo y mas rapido</p>
+                                <a href="#" class="btn btn-primary button-card-login">Seleccionar Talle</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
-    <footer>
+    <footer class="footer-main">
         <div class="container text-center">
             <div class="row align-items-start">
-                <div class="col-lg-4">
-                    <a>
-                        <img id="logo" src="../assests/img/7.png" alt="logo principal">
-                    </a>
-                </div>
+                <a href="index.html" class="col-lg-4 nav-main-img"></a>
                 <div class="col-md-6 col-lg-4">
                     <p>REDES SOCIALES:</p>
                     <a href="https://www.facebook.com/?stype=lo&flo=1&deoia=1&jlou=Afhx3Yf0gK3NKfguYFf_MPbV2chGqNkx5kBo6uY6NWAJGwAm3G82ygQ81g3Er3ckSZJ7B8C5bP21qJ8G2dzWg_NRaF-YxUqhl67li7y6jsrJjw&smuh=47521&lh=AdAigKoIWv38APRQnfw" target="_blank">Facebook</a>
