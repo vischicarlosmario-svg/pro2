@@ -16,7 +16,7 @@
 
 <body>
     <header></header>
-    <main class="main-login">
+    <main class="main-login-register">
         <article class="contenedor-form-login d-flex justify-content-center w-100 flex-column">
             <div class="header-logo">
                 <img src="../assets/img/Logo.png" alt="Logo de la empresa" class="img-login">
@@ -37,15 +37,15 @@
                 </div>
                 <div class="mb-3">
                     <label for="domicilio" class="form-label">Domicilio</label>
-                    <input type="text" class="form-control" id="domicilio" required minlength="5">
+                    <input type="text" class="form-control" id="domicilio" required minlength="5" placeholder="Ej: 9 de julio 836">
                 </div>
                 <div class="mb-3">
                     <label for="codigopostal" class="form-label">Codigo Postal</label>
-                    <input type="number" class="form-control" id="codigopostal" required required min="1000" max="99999">
+                    <input type="number" class="form-control" id="codigopostal" required required min="1000" max="99999" placeholder="Ej: 4000">
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Direccion email</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" pattern=".+@.+\..+"  required>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ej: exampleEmail@Email.com" pattern=".+@.+\..+"  required>
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Contraseña</label>
@@ -56,11 +56,11 @@
                     <label class="form-check-label" for="exampleCheck1">No soy un robot</label>
                 </div>
                 <div class="text-center">
-                    <button type="submit" class="btn btn-primary button-form-login">Iniciar sesion</button>
+                    <button type="submit" class="btn btn-primary button-form-login">Registrarse</button>
                 </div>
             </form>
             <div class="text-center button-crear-cuenta d-flex justify-content-center">
-                <p>Ya tienes una cuenta? <a href="" class="Register-PagLogin">Haz clic aqui</a></p>
+                <p>Ya tienes una cuenta? <a href="login.html" class="Register-PagLogin">Haz clic aqui</a></p>
             </div>
             <div class="text-login d-flex justify-content-center">
                 <p class="text-login">Terminos y condiciones</p>

@@ -23,8 +23,8 @@
             </div>
             <form class="form-login">
                 <div class="mb-3">
-                    <label for="email" class="form-label">Usuario o dirección email</label>
-                    <input type="email" class="form-control" id="email" required>
+                    <label for="email" class="form-label">Dirección email</label>
+                    <input type="email" class="form-control" id="email" pattern=".+@.+\..+" placeholder="exampleEmail@Email.com" required>
                 </div>
 
                 <div class="mb-3">
@@ -43,7 +43,7 @@
                 </div>
 
                 <div class="text-center">
-                    <button type="submit" class="btn btn-primary button-form-login">Registrarse / Iniciar
+                    <button type="submit" class="btn btn-primary button-form-login">Iniciar
                         sesión</button>
                 </div>
             </form>

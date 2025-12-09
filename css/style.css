@@ -9,42 +9,48 @@
     --color-input-borde: #30363d;
     --color-input-focus: #256fd5;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.header-logo{
+.header-logo {
     display: flex;
     justify-content: center;
     height: 20vh;
 }
 
-.img-login{
+.img-login {
     width: 200px;
     height: 200px;
 }
 
-.main-login{
+.main-login {
     background-color: var(--color-fondo);
-    height: 200vh;
+    height: 100vh;
 }
 
-.contenedor-form-login{
+.main-login-register {
+    background-color: var(--color-fondo);
+    height: 150vh;
+}
+
+.contenedor-form-login {
     height: 150vh;
     background-color: var(--color-fondo);
     align-items: center;
     color: var(--color-texto);
 }
 
-.button-form-login{
+.button-form-login {
     background-color: var(--color-boton);
     border: none;
     width: 100%;
 }
 
-.button-crear-cuenta{
+.button-crear-cuenta {
     border: 1px solid var(--color-borde);
     width: 30%;
     padding: 20px;
@@ -52,7 +58,7 @@
     align-items: center;
 }
 
-.form-login{
+.form-login {
     background-color: var(--color-form);
     width: 30%;
     padding: 20px;
@@ -60,7 +66,7 @@
     margin-bottom: 10px;
 }
 
-.Register-PagLogin{
+.Register-PagLogin {
     color: var(--color-link);
     text-decoration: none;
 }
@@ -81,8 +87,8 @@
     outline: none !important;
 }
 
-.text-login{
+.text-login {
     color: var(--color-form);
     padding: 10px;
-    padding-top:30px ;
+    padding-top: 30px;
 }
