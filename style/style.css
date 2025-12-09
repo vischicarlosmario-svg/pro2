@@ -1,0 +1,189 @@
+:root {
+    --color-fondo: #0c141a;
+    --color-form: #4c4c54;
+    --color-boton: #238234;
+    --color-texto: #ffffff;
+    --color-link: #256fd5;
+    --color-borde: #505050;
+    --color-input-fondo: #0d1117;
+    --color-input-borde: #30363d;
+    --color-input-focus: #256fd5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+}
+
+.img-login {
+    width: 200px;
+    height: 200px;
+}
+
+.main-login {
+    background-color: var(--color-fondo);
+    height: 100vh;
+}
+
+.main-login-register {
+    background-color: var(--color-fondo);
+    height: 150vh;
+}
+
+.contenedor-form-login {
+    height: 100vh;
+    background-color: var(--color-fondo);
+    align-items: center;
+    color: var(--color-texto);
+}
+
+.contenedor-form-login-register {
+    height: 150vh;
+    background-color: var(--color-fondo);
+    align-items: center;
+    color: var(--color-texto);
+}
+
+.button-form-login {
+    background-color: var(--color-boton);
+    border: none;
+    width: 100%;
+}
+
+.button-crear-cuenta {
+    border: 1px solid var(--color-borde);
+    width: 30%;
+    padding: 20px;
+    border-radius: 6px;
+    align-items: center;
+}
+
+.mb-3 {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.form-login {
+    background-color: var(--color-form);
+    width: 30%;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.Register-PagLogin {
+    color: var(--color-link);
+    text-decoration: none;
+}
+
+.form-control-login {
+    background-color: var(--color-input-fondo) !important;
+    border: 1px solid var(--color-input-borde) !important;
+    color: var(--color-texto) !important;
+    border-radius: 6px !important;
+    padding: 10px !important;
+    box-shadow: none !important;
+    transition: border 0.15s ease, box-shadow 0.15s ease;
+}
+
+.form-control-login:focus {
+    border-color: var(--color-input-focus) !important;
+    box-shadow: 0 0 0 3px rgba(37, 111, 213, 0.3) !important;
+    outline: none !important;
+}
+
+.text-login {
+    color: var(--color-form);
+    padding: 10px;
+}
+
+.card-main {
+    width: 30% !important;
+    background-color: var(--color-form) !important;
+    color: var(--color-texto) !important;
+    border-radius: 6px !important;
+}
+
+.button-card-login {
+    background-color: var(--color-boton) !important;
+    border: none;
+    width: 100% !important;
+}
+
+.card-main-header {
+    background-color: var(--color-form) !important;
+    color: var(--color-texto) !important;
+    border-radius: 10px !important;
+    width: 20% !important;
+    padding: 0 !important;
+}
+
+.img-main {
+    border: 0 !important;
+}
+
+.icono-header {
+    font-size: 2rem !important;
+    padding: 10px;
+}
+
+.nav-main {
+    background-color: var(--color-fondo) !important;
+    color: var(--color-texto) !important;
+}
+
+.barra-abajo-nav {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    align-items: center !important;
+    padding-top: 5px;
+    background-color: var(--color-input-borde) !important;
+    color: var(--color-texto) !important;
+
+}
+
+.oferta-main {
+    color: rgb(252, 132, 132) !important;
+}
+
+.barra-abajo-nav p {
+    color: rgb(255, 255, 255);
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.footer-main {
+    background-color: var(--color-fondo) !important;
+    color: var(--color-texto) !important;
+}
+
+.nav-main-img {
+    background-image: url(../assets/img/Logo.png);
+    background-size: cover;
+    /* cubre sin deformar */
+    background-position: center;
+    /* centra */
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 50vh;
+}
+.body-main{
+    padding-top: 15.9vh;
+    background-color:rgb(24, 15, 32);
+    color: var(--color-texto) !important
+}
+@media all and (max-width: 767px) {
+    #logo {
+        display: none;
+    }
+}
