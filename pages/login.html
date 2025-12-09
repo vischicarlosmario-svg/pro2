@@ -11,7 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="shortcut icon" href="./assets/img/1.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../style/style.css">
 </head>
 
 <body>
@@ -24,20 +24,20 @@
             <form class="form-login">
                 <div class="mb-3">
                     <label for="email" class="form-label">Dirección email</label>
-                    <input type="email" class="form-control" id="email" pattern=".+@.+\..+" placeholder="exampleEmail@Email.com" required>
+                    <input type="email" class="form-control-login" id="email" pattern=".+@.+\..+" placeholder="exampleEmail@Email.com" required>
                 </div>
 
                 <div class="mb-3">
                     <label for="password" class="form-label">Contraseña</label>
-                    <input type="password" class="form-control" id="password" required minlength="6">
+                    <input type="password" class="form-control-login" id="password" required minlength="6">
                 </div>
 
                 <div class="mb-3">
                     <label for="password2" class="form-label">Repetir contraseña</label>
-                    <input type="password" class="form-control" id="password2" required minlength="6">
+                    <input type="password" class="form-control-login" id="password2" required minlength="6">
                 </div>
 
-                <div class="mb-3 form-check">
+                <div class="mb-4 form-check">
                     <input type="checkbox" class="form-check-input" id="notrobot" required>
                     <label class="form-check-label" for="notrobot">No soy un robot</label>
                 </div>
