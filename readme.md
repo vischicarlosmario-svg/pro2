@@ -48,5 +48,3 @@ Trello
 Git & GitHub
 
 Figma (diseño)
-
-Bootstrap (si corresponde)
