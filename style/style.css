@@ -187,3 +187,12 @@
         display: none;
     }
 }
+
+
+
+.body-main {
+    padding-top: 56px; 
+    background-image: url('../assets/img/patron-fondo.jpg'); 
+    background-repeat: repeat; 
+    background-color: #000000; 
+}
