@@ -120,7 +120,7 @@
 .card-main-header {
     background-color: var(--color-form) !important;
     color: var(--color-texto) !important;
-    border-radius: 10px !important;
+    border-radius: 40px !important;
     width: 20% !important;
     padding: 0 !important;
 }
