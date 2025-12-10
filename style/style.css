@@ -16,6 +16,18 @@
     box-sizing: border-box;
 }
 
+.color {
+    background-color: rgb(0, 0, 0);
+}
+
+.imgerror {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.botonVolver {
+    background-color: rgb(255, 255, 255); 
+    color: black;
 .header-logo {
     display: flex;
     justify-content: center;
@@ -120,7 +132,7 @@
 .card-main-header {
     background-color: var(--color-form) !important;
     color: var(--color-texto) !important;
-    border-radius: 40px !important;
+    border-radius: 10px !important;
     width: 20% !important;
     padding: 0 !important;
 }
