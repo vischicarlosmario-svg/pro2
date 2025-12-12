@@ -177,11 +177,13 @@
     height: 100px;
     width: 50vh;
 }
-.body-main{
+
+.body-main {
     padding-top: 15.9vh;
-    background-color:rgb(24, 15, 32);
+    background-color: rgb(24, 15, 32);
     color: var(--color-texto) !important
 }
+
 @media all and (max-width: 767px) {
     #logo {
         display: none;
@@ -191,8 +193,38 @@
 
 
 .body-main {
-    padding-top: 56px; 
-    background-image: url('../assets/img/patron-fondo.jpg'); 
-    background-repeat: repeat; 
-    background-color: #000000; 
+    padding-top: 56px;
+    background-image: url('../assets/img/patron-fondo.jpg');
+    background-repeat: repeat;
+    background-color: #000000;
+}
+
+
+.border-gold {
+    border-color: #D4AF37 !important;
+}
+
+.text-gold {
+    color: #D4AF37 !important;
+}
+
+.shadow-gold {
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.7);
+}
+
+.card-luxury {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card-luxury:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 0 10px #D4AF37;
+}
+
+.card img{
+
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+
 }
