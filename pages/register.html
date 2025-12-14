@@ -12,9 +12,11 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="shortcut icon" href="./assets/img/1.png" type="image/x-icon">
     <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css">
 </head>
 
-<body>
+<body class="main-login">
     <header></header>
     <main class="main-login-register">
         <article class="contenedor-form-login-register d-flex justify-content-center w-100 flex-column">
@@ -37,15 +39,18 @@
                 </div>
                 <div class="mb-3">
                     <label for="domicilio" class="form-label">Domicilio</label>
-                    <input type="text" class="form-control-login" id="domicilio" required minlength="5" placeholder="Ej: 9 de julio 836">
+                    <input type="text" class="form-control-login" id="domicilio" required minlength="5"
+                        placeholder="Ej: 9 de julio 836">
                 </div>
                 <div class="mb-3">
                     <label for="codigopostal" class="form-label">Codigo Postal</label>
-                    <input type="number" class="form-control-login" id="codigopostal" required required min="1000" max="99999" placeholder="Ej: 4000">
+                    <input type="number" class="form-control-login" id="codigopostal" required required min="1000"
+                        max="99999" placeholder="Ej: 4000">
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Direccion email</label>
-                    <input type="email" class="form-control-login" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ej: exampleEmail@Email.com" pattern=".+@.+\..+"  required>
+                    <input type="email" class="form-control-login" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Ej: exampleEmail@Email.com" pattern=".+@.+\..+" required>
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Contraseña</label>
@@ -62,6 +67,8 @@
             <div class="text-center button-crear-cuenta d-flex justify-content-center">
                 <p>Ya tienes una cuenta? <a href="login.html" class="Register-PagLogin">Haz clic aqui</a></p>
             </div>
+            <a href="../index.html"><i class="bi bi-arrow-left-square-fill icon-login"></i></a>
+
             <div class="text-login d-flex justify-content-center">
                 <p class="text-login">Terminos y condiciones</p>
                 <p class="text-login">Contacta con nosotros</p>
