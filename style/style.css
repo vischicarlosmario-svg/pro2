@@ -190,7 +190,9 @@
     background-color: rgb(24, 15, 32);
     color: var(--color-texto) !important
 }
-
+.main-principal{
+    padding-top:8.2vh;
+}
 @media all and (max-width: 767px) {
     #logo {
         display: none;
