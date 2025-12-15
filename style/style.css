@@ -198,7 +198,9 @@
         display: none;
     }
 }
-
+.main-principal-nosotros{
+    padding-top:12vh !important;
+}
 
 
 .body-main {
