@@ -322,3 +322,10 @@ por un usuario (solo están maquetados) los botones para eliminar cada uno y el 
 producto detallado. Por otra parte mostrar el total a pagar, un botón para proceder con la compra el
 cual debe enviarnos a la página de error 404 y un botón para volver atrás y seguir comprando
 productos*/
+
+.fondo {
+    background-image: url(../assets/img/404.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
