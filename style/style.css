@@ -297,3 +297,10 @@
     display: flex;
     align-items: center;
 }
+
+.fondo {
+    background-image: url(../assets/img/404.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
