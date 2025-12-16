@@ -424,3 +424,14 @@ productos*/
 .boton-gold:hover a {
     color: #ffd700;
 }
+
+.precio {
+    background-color: #1d1c1c;
+    color: #ffd700;
+    border-radius: 30px; 
+    width: fit-content; 
+    max-width: 100%;   
+    text-align: center;
+    font-size: 1.8em;
+    letter-spacing: 1px;
+}
