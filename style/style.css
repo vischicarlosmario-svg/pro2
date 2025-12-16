@@ -105,7 +105,6 @@
 }
 
 .card-main {
-    width: 30% !important;
     background-color: var(--color-form) !important;
     color: var(--color-texto) !important;
     border-radius: 6px !important;
@@ -121,7 +120,6 @@
     background-color: var(--color-form) !important;
     color: var(--color-texto) !important;
     border-radius: 40px !important;
-    width: 20% !important;
     padding: 0 !important;
 }
 
@@ -185,31 +183,23 @@
     width: 50vh;
 }
 
-.body-main {
-    padding-top: 15.9vh;
-    background-color: rgb(24, 15, 32);
-    color: var(--color-texto) !important
-}
-.main-principal{
-    padding-top:8.2vh;
-}
+
+
 @media all and (max-width: 767px) {
     #logo {
         display: none;
     }
+.carousel{
+    display: none;
 }
-.main-principal-nosotros{
-    padding-top:12vh !important;
+    
 }
-
 
 .body-main {
-    padding-top: 56px;
     background-image: url('../assets/img/patron-fondo.jpg');
     background-repeat: repeat;
-    background-color: #000000;
+    color: var(--color-texto) !important;
 }
-
 
 .border-gold {
     border-color: #D4AF37 !important;
@@ -301,10 +291,7 @@
     display: flex;
     align-items: center;
 }
-.main-carrito {
-    padding-top: 80px;
-    color: white !important;
-}
+
 .card-carrito{
     background-color: white;
     color: black;
