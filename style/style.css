@@ -52,14 +52,19 @@
 }
 
 .button-form-login {
-    background-color: var(--color-boton);
+    background-color: #ffd700;
+    color: #000000;
     border: none;
     width: 100%;
+}
+.button-form-login:hover{
+    background-color: #000000 !important;
+    color: #ffd700;
 }
 
 .button-crear-cuenta {
     border: 1px solid var(--color-borde);
-    width: 30%;
+    width: 50%;
     padding: 20px;
     border-radius: 6px;
     align-items: center;
@@ -72,16 +77,12 @@
 
 .form-login {
     background-color: var(--color-form);
-    width: 30%;
+    width: 60%;
     padding: 20px;
     border-radius: 6px;
     margin-bottom: 10px;
 }
 
-.Register-PagLogin {
-    color: var(--color-link);
-    text-decoration: none;
-}
 
 .form-control-login {
     background-color: var(--color-input-fondo) !important;
