@@ -303,7 +303,6 @@
 }
 .main-carrito {
     padding-top: 80px;
-    background-color: white;
     color: white !important;
 }
 .card-carrito{
@@ -396,6 +395,21 @@ productos*/
     background-color: #2c2c2c; 
     border: 2px solid #ffd700; 
     transform: scale(1.05); 
+}
+.boton-gold {
+    background-color: #ffd700; 
+    color: #000000 !important;
+}
+.boton-gold a{
+    color: #000000;
+}
+
+.boton-gold:hover {
+    background-color: #000000; 
+    transform: scale(1.05); 
+}
+.boton-gold:hover a {
+    color: #ffd700;
 }
 
 css
