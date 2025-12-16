@@ -396,6 +396,17 @@ productos*/
     border: 2px solid #ffd700; 
     transform: scale(1.05); 
 }
+.estrellas {
+    font-size: 24px;
+    color: #ccc;
+    letter-spacing: -2px;
+}
+
+.estrellas .puntaje {
+    color: #ffc107;
+}
+
+
 .boton-gold {
     background-color: #ffd700; 
     color: #000000 !important;
