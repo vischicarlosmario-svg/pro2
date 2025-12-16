@@ -335,6 +335,12 @@ productos*/
     height: 70vh;
 }
 
+.botonVolver {
+    margin-top: 91vh;
+    background-color: white;
+    color: black;
+}
+
 #comentarios {
     padding: 50px 20px;
     text-align: center;
