@@ -16,7 +16,7 @@
     <title>Contacto</title>
 </head>
 
-<body>
+<body class="body-main">
     <header>
         <nav class="navbar bg-primary nav-main fixed-top">
             <div class="container-fluid d-flex align-items-center">
@@ -50,7 +50,7 @@
                         <label for="name">Nombre</label>
                         <input type="text" class="form-control completar" placeholder="Ej:Pablo" minlength="3" required
                             aria-describedby="namehelp" maxlength="20" aria-label="First name">
-                        <div id="namehelp" class="form-text">
+                        <div id="namehelp" class="form-text text-gold">
                             Este campo tiene como minimo 3 caracteresy como maximo 20 caracteres
                         </div>
                     </div>
@@ -58,7 +58,7 @@
                         <label for="surname">Apellido</label>
                         <input type="text" class="form-control" placeholder="Ej:Ruiz" aria-describedby="lastnamehelp"
                             required minlength="3" maxlength="25">
-                        <div id="lastnamehelp" class="form-text">
+                        <div id="lastnamehelp" class="form-text text-gold">
                             Este campo tiene como minimmo 3 caracteres y como maximo 25 caracteres.
                         </div>
                     </div>
@@ -79,8 +79,8 @@
                         <textarea class="form-control" id="exampleFormControlTextarea1" aria-describedby="texthelp"
                             required maxlength="400" minlength="50" rows="3"></textarea>
                     </div>
-                    <div id="texthelp" class="form-text">
-                        este campo tiene como minimo 50 caracteres y como maximo 400
+                    <div id="texthelp" class="form-text text-gold">
+                        Este campo tiene como minimo 50 caracteres y como maximo 400
                     </div>
                     <div class="col-2 ">
                         <button class="btn btn-primary w-100" type="submit">Enviar mensaje</button>
