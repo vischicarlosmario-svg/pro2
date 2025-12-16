@@ -404,18 +404,3 @@ productos*/
 .boton-gold:hover a {
     color: #ffd700;
 }
-
-css
-.estrellas {
-    font-size: 24px;
-    /* Tamaño de las estrellas */
-    color: #ccc;
-    /* Color por defecto (vacío) */
-    letter-spacing: -2px;
-    /* Ajusta el espacio entre estrellas */
-}
-
-.estrellas .puntaje {
-    color: #ffc107;
-    /* Color para las estrellas llenas (amarillo/dorado) */
-}
