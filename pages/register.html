@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,10 +11,10 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="shortcut icon" href="./assets/img/1.png" type="image/x-icon">
     <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css">
 </head>
-
-<body>
-    <header></header>
+<body class="main-login">
     <main class="main-login-register">
         <article class="contenedor-form-login-register d-flex justify-content-center w-100 flex-column">
             <div class="header-logo">
@@ -37,15 +36,18 @@
                 </div>
                 <div class="mb-3">
                     <label for="domicilio" class="form-label">Domicilio</label>
-                    <input type="text" class="form-control-login" id="domicilio" required minlength="5" placeholder="Ej: 9 de julio 836">
+                    <input type="text" class="form-control-login" id="domicilio" required minlength="5"
+                        placeholder="Ej: 9 de julio 836">
                 </div>
                 <div class="mb-3">
                     <label for="codigopostal" class="form-label">Codigo Postal</label>
-                    <input type="number" class="form-control-login" id="codigopostal" required required min="1000" max="99999" placeholder="Ej: 4000">
+                    <input type="number" class="form-control-login" id="codigopostal" required required min="1000"
+                        max="99999" placeholder="Ej: 4000">
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Direccion email</label>
-                    <input type="email" class="form-control-login" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ej: exampleEmail@Email.com" pattern=".+@.+\..+"  required>
+                    <input type="email" class="form-control-login" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Ej: exampleEmail@Email.com" pattern=".+@.+\..+" required>
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Contraseña</label>
@@ -56,16 +58,17 @@
                     <label class="form-check-label" for="exampleCheck1">No soy un robot</label>
                 </div>
                 <div class="text-center">
-                    <button type="submit" class="btn btn-primary button-form-login">Registrarse</button>
+                    <button type="submit" class="btn button-form-login ">Registrarse</button>
                 </div>
             </form>
             <div class="text-center button-crear-cuenta d-flex justify-content-center">
-                <p>Ya tienes una cuenta? <a href="login.html" class="Register-PagLogin">Haz clic aqui</a></p>
+                <p>Ya tienes una cuenta? <a href="login.html" class="text-decoration-none text-gold">Haz clic aqui</a></p>
             </div>
+            <a href="../index.html"><i class="bi bi-arrow-left-square-fill icon-login"></i></a>
             <div class="text-login d-flex justify-content-center">
                 <p class="text-login">Terminos y condiciones</p>
-                <p class="text-login">Contacta con nosotros</p>
-                <p class="text-login">Nosotros no compartimos tu informacion personal</p>
+                <p class="text-login"><a href="../pages/contacto.html" class="text-decoration-none text-login">Contacta con nosotros</a></p>
+                <p class="text-login"><a href="../pages/nosotros.html" class="text-decoration-none text-login">Nosotros no compartimos tu informacion personal</a></p>
             </div>
         </article>
     </main>
@@ -74,5 +77,4 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
 </body>
-
 </html>

@@ -4,21 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tiendamania.</title>
+    <title>MAG.</title>
     <meta name="author" content="joaquin sosa, miguel veliz, jonas delgado, carlos vischi, gonzalo orellana">
-    <meta name="discription" content="La mejor pagina de descuentos en ropa deportiva">
-    <meta name="keywords" content="ropa, calzado, descuento, precio, zapatillas, deportes, bajar peso, salud">
+    <meta name="discription" content="La mejor pagina de vehiculos de alta gama">
+    <meta name="keywords" content="auto, moto, yate, avion, helicoptero, alta gama, gold, premium">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="shortcut icon" href="./assets/img/1.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css">
 </head>
-
 <body class="body-main">
     <header>
-        <nav class="navbar bg-primary nav-main fixed-top">
+        <nav class="navbar bg-primary nav-main">
             <div class="container-fluid d-flex align-items-center">
                 <a href="../index.html">
                     <div class="d-flex text-center justify-content-center flex-grow-1 nav-main-img">
@@ -28,107 +27,141 @@
                     <input class="form-control mx-1" type="search" placeholder="Buscar producto" aria-label="Search" />
                 </div>
                 <div class="d-flex flex-row justify-content-center flex-grow-1">
-                    <a class="mx-1 text-light text-decoration-none" href="pages/carrito.html" target="_blank"><i
+                    <a class="mx-1 text-light text-decoration-none" href="../pages/carrito.html"><i
                             class="bi bi-basket2-fill icono-header"></i></a>
-                    <a class="mx-1 text-light text-decoration-none" href="pages/contacto.html" target="_blank"><i
+                    <a class="mx-1 text-light text-decoration-none" href="../pages/contacto.html"><i
+                            class="bi bi-telephone icono-header"></i></a>
+                    <a class="mx-1 text-light text-decoration-none" href="../pages/login.html"><i
+                            class="bi bi-person-circle icono-header"></i></a>
+                    <a class="mx-1 text-light text-decoration-none" href="../pages/nosotros.html"><i
                             class="bi bi-info-circle icono-header"></i></a>
-                    <a class="mx-1 text-light text-decoration-none" href="pages/login.html" target="_blank"><i
-                            class="bi bi-person-circle icono-header"></i></a>
-                    <a class="mx-1 text-light text-decoration-none" href="pages/nosotros.html" target="_blank"><i
-                            class="bi bi-person-circle icono-header"></i></a>
                 </div>
             </div>
         </nav>
-        <div class="barra-abajo-nav">
-            <p><i class="bi bi-fire oferta-main">Ofertas</i></p>
-            <p>Indumentaria</p>
-            <p>Hombre</p>
-            <p>Mujer</p>
-            <p>Niños</p>
-            <p>Mas</p>
-        </div>
     </header>
-
     <main class="container py-5">
-        <h1 class="text-center mb-5 display-4 fw-bold">Nuestro Equipo</h1>
-        <p class="text-center lead mb-5">Conoce a las mentes creativas detrás de este proyecto.</p>
-
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center">
-
-            <div class="col">
-                <div class="card h-100 text-center shadow-lg border-0 rounded-4 p-4">
-                    <div class="d-flex justify-content-center">
-                        <img src="../assets/img/foto-nosotros1.avif"
-                            class="img-fluid rounded-circle mb-3 border border-5 border-primary"
-                            style="width: 150px; height: 150px; object-fit: cover;" alt="Foto de [Nombre 1]">
+        <div class="container my-5">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-3 text-center text-md-start mb-3 mb-md-0">
+                    <img src="../assets/img/logo.png" alt="Logo Empresa" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-8 text-center text-md-start ">
+                    <h2 class="fw-bold text-gold">¿Quiénes Somos?</h2>
+                    <p class="text">
+                        Desde nuestra fundación en 2020, MAG se ha dedicado a redefinir la experiencia de la alta gama.
+                        Más que una empresa de venta de vehículos, somos curadores de sueños y facilitadores de estilos
+                        de vida inigualables.
+                        Nuestra trayectoria se ha forjado sobre un compromiso inquebrantable con la excelencia, la
+                        discreción y la pasión por la
+                        ingeniería perfecta. A lo largo de los años, hemos construido una cartera exclusiva que incluye
+                        los
+                        superdeportivos más codiciados, yates de ensueño diseñados a medida y aeronaves privadas de
+                        última generación,
+                        atendiendo a una clientela que exige solo lo mejor del mundo.
+                        En MAG, no solo vendemos un vehículo; le ofrecemos una llave de acceso a un mundo de lujo
+                        sin límites y a un legado de servicio excepcional.
+                    </p>
+                </div>
+            </div>
+            <h1 class="text-center mb-1 py-4 display-4 fw-bold text-gold">Nuestro Equipo</h1>
+            <p class="text-center lead mb-3">Conocé a las mentes creativas detrás de este proyecto.</p>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center">
+                <div class="col">
+                    <div class="card-nosotros h-100 text-center shadow-lg border-0 rounded-4 p-4 bg-dark card-luxury">
+                        <div class="d-flex justify-content-center">
+                            <img src="../assets/img/foto-nosotros-1-CarlosVishi.jpg"
+                                class="img-fluid rounded-circle mb-3 border border-5 border-gold"
+                                alt="Foto de Vishi Carlos Mario">
+                        </div>
+                        <div class="card-body p-0">
+                            <h5 class="card-title text-gold fw-bold mb-1">Vishi Carlos Mario</h5>
+                            <p class="card-text text-light small opacity-75">Líder de Proyecto</p>
+                        </div>
                     </div>
-                    <div class="card-body p-0">
-                        <h5 class="card-title text-dark fw-bold mb-1">Vishi Carlos Mario</h5>
-                        <p class="card-text text-muted small">Líder de Proyecto </p>
+                </div>
+                <div class="col">
+                    <div class="card-nosotros h-100 text-center shadow-lg border-0 rounded-4 p-4 bg-dark card-luxury">
+                        <div class="d-flex justify-content-center">
+                            <img src="../assets/img/foto-nosotros-2-miguelVeliz.jpg"
+                                class="img-fluid rounded-circle mb-3 border border-5 border-gold"
+                                alt="Foto de Veliz Miguel">
+                        </div>
+                        <div class="card-body p-0">
+                            <h5 class="card-title text-gold fw-bold mb-1">Veliz Miguel</h5>
+                            <p class="card-text text-light small opacity-75">Scrum Master</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-nosotros h-100 text-center shadow-lg border-0 rounded-4 p-4 bg-dark card-luxury">
+                        <div class="d-flex justify-content-center">
+                            <img src="../assets/img/foto-nosotros-3-jonasVeliz.jpg"
+                                class="img-fluid rounded-circle mb-3 border border-5 border-gold"
+                                alt="Foto de Delgado Jonás">
+                        </div>
+                        <div class="card-body p-0">
+                            <h5 class="card-title text-gold fw-bold mb-1">Delgado Jonás</h5>
+                            <p class="card-text text-light small opacity-75">Tester</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-nosotros h-100 text-center shadow-lg border-0 rounded-4 p-4 bg-dark card-luxury">
+                        <div class="d-flex justify-content-center">
+                            <img src="../assets/img/foto-nosotros-4-SosaJoaquin.jpg"
+                                class="img-fluid rounded-circle mb-3 border border-5 border-gold"
+                                alt="Foto de Sosa Joaquín">
+                        </div>
+                        <div class="card-body p-0">
+                            <h5 class="card-title text-gold fw-bold mb-1">Sosa Joaquín</h5>
+                            <p class="card-text text-light small opacity-75">Diseño gráfico - front end</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-nosotros h-100 text-center shadow-lg border-0 rounded-4 p-4 bg-dark card-luxury">
+                        <div class="d-flex justify-content-center">
+                            <img src="../assets/img/foto-nosotros-5-gonzaloorellana.jpg"
+                                class="img-fluid rounded-circle mb-3 border border-5 border-gold"
+                                alt="Foto de Orellana Gonzalo">
+                        </div>
+                        <div class="card-body p-0">
+                            <h5 class="card-title text-gold fw-bold mb-1">Orellana Gonzalo</h5>
+                            <p class="card-text text-light small opacity-75">Especialista en Contenido</p>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="col">
-                <div class="card h-100 text-center shadow-lg border-0  p-4">
-                    <div class="d-flex justify-content-center">
-                        <img src="../assets/img/foto-nosotros2.avif"
-                            class="img-fluid rounded-circle mb-3 border border-5 border-success"
-                            style="width: 150px; height: 150px; object-fit: cover;" alt="Foto de [Nombre 2]">
-                    </div>
-                    <div class="card-body p-0">
-                        <h5 class="card-title text-dark fw-bold mb-1">Veliz Miguel</h5>
-                        <p class="card-text text-muted small">Scrum Master</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card h-100 text-center shadow-lg border-0 rounded-4 p-4">
-                    <div class="d-flex justify-content-center">
-                        <img src="../assets/img/foto-nosotros3.jpg"
-                            class="img-fluid rounded-circle mb-3 border border-5 border-warning"
-                            style="width: 150px; height: 150px; object-fit: cover;" alt="Foto de [Nombre 3]">
-                    </div>
-                    <div class="card-body p-0">
-                        <h5 class="card-title text-dark fw-bold mb-1">Delgado Jonás</h5>
-                        <p class="card-text text-muted small">Diseñador UX/UI / Documentación</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card h-100 text-center shadow-lg border-0 rounded-4 p-4">
-                    <div class="d-flex justify-content-center">
-                        <img src="../assets/img/foto-nosotros-4.png"
-                            class="img-fluid rounded-circle mb-3 border border-5 border-danger"
-                            style="width: 150px; height: 150px; object-fit: cover;" alt="Foto de [Nombre 4]">
-                    </div>
-                    <div class="card-body p-0">
-                        <h5 class="card-title text-dark fw-bold mb-1">Sosa Joaquín</h5>
-                        <p class="card-text text-muted small">Diseño gráfico - front end</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card h-100 text-center shadow-lg border-0 rounded-4 p-4">
-                    <div class="d-flex justify-content-center">
-                        <img src="../assets/img/foto-nosotros5.avif"
-                            class="img-fluid rounded-circle mb-3 border border-5 border-secondary"
-                            style="width: 150px; height: 150px; object-fit: cover;" alt="Foto de [Nombre 5]">
-                    </div>
-                    <div class="card-body p-0">
-                        <h5 class="card-title text-dark fw-bold mb-1">... Gonzalo</h5>
-                        <p class="card-text text-muted small">Especialista en Marketing / Contenido</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
     </main>
-
-    <footer></footer>
+    <footer class="footer-main">
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <a href="index.html" class="col-lg-4 nav-main-img"></a>
+                <div class="col-md-6 col-lg-4 d-flex flex-column text-center footer-redes">
+                    <h3 class="text-gold">Redes sociales</h3>
+                    <a href="https://www.facebook.com/?stype=lo&flo=1&deoia=1&jlou=Afhx3Yf0gK3NKfguYFf_MPbV2chGqNkx5kBo6uY6NWAJGwAm3G82ygQ81g3Er3ckSZJ7B8C5bP21qJ8G2dzWg_NRaF-YxUqhl67li7y6jsrJjw&smuh=47521&lh=AdAigKoIWv38APRQnfw"
+                        class="text-decoration-none text-start footer-redes-facebook"><i
+                            class="bi bi-facebook icono-header"></i>@Mag.Tuc</a>
+                    <a href="https/:.." class="text-decoration-none text-start footer-redes-twitter"><i
+                            class="bi bi-twitter-x icono-header"></i>@Mag.Tuc</a>
+                    <a href="https/:.." class="text-decoration-none text-start footer-redes-instagram"><i
+                            class="bi bi-instagram icono-header"></i>@Mag.Tuc</a>
+                    <a href="https/:.." class="text-decoration-none text-start footer-redes-whatsapp"><i
+                            class="bi bi-whatsapp icono-header"></i>+54 11 2345-6789</a>
+                </div>
+                <div class=" col-sm-12 col-md-6 col-lg-4">
+                    <h3><a href="pages/nosotros.html" class="text-decoration-none text-gold">Sobre Nosotros</a></h3>
+                    <P><strong>MAQ</strong> es tu punto de encuentro para la compra y venta de vehículos de todo tipo.
+                        Desde autos y
+                        motos hasta aviones, helicópteros y embarcaciones, ofrecemos soluciones pensadas para quienes
+                        buscan potencia, tecnología y confianza. Conectamos a compradores y vendedores en un espacio
+                        seguro, moderno y transparente, llevando tu próxima experiencia de movilidad al siguiente nivel.
+                    </P>
+                    <p>New York, Hong Kong, Sidney, Buenos Aires, Londres.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>

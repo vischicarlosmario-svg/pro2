@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tiendamania.</title>
+    <title>MAG.</title>
     <meta name="author" content="joaquin sosa, miguel veliz, jonas delgado, carlos vischi, gonzalo orellana">
     <meta name="discription" content="La mejor pagina de descuentos en ropa deportiva">
     <meta name="keywords" content="ropa, calzado, descuento, precio, zapatillas, deportes, bajar peso, salud">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="shortcut icon" href="./assets/img/1.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css">
 </head>
-
 <body class="body-main">
     <header>
-        <nav class="navbar bg-primary nav-main fixed-top">
+        <nav class="navbar bg-primary nav-main ">
             <div class="container-fluid d-flex align-items-center">
                 <a href="index.html">
                     <div class="d-flex text-center justify-content-center flex-grow-1 nav-main-img">
@@ -28,30 +26,20 @@
                     <input class="form-control mx-1" type="search" placeholder="Buscar producto" aria-label="Search" />
                 </div>
                 <div class="d-flex flex-row justify-content-center flex-grow-1">
-                    <a class="mx-1 text-light text-decoration-none" href="pages/carrito.html" target="_blank"><i
+                    <a class="mx-1 text-light text-decoration-none" href="pages/carrito.html" ><i
                             class="bi bi-basket2-fill icono-header"></i></a>
-                    <a class="mx-1 text-light text-decoration-none" href="pages/contacto.html" target="_blank"><i
+                    <a class="mx-1 text-light text-decoration-none" href="pages/contacto.html"><i
+                            class="bi bi-telephone icono-header"></i></a>
+                    <a class="mx-1 text-light text-decoration-none" href="pages/login.html" ><i
+                            class="bi bi-person-circle icono-header"></i></a>
+                    <a class="mx-1 text-light text-decoration-none" href="pages/nosotros.html"><i
                             class="bi bi-info-circle icono-header"></i></a>
-                    <a class="mx-1 text-light text-decoration-none" href="pages/login.html" target="_blank"><i
-                            class="bi bi-person-circle icono-header"></i></a>
-                    <a class="mx-1 text-light text-decoration-none" href="pages/nosotros.html" target="_blank"><i
-                            class="bi bi-person-circle icono-header"></i></a>
                 </div>
             </div>
         </nav>
-        <div class="barra-abajo-nav">
-            <p><i class="bi bi-fire oferta-main">Ofertas</i></p>
-            <p>Indumentaria</p>
-            <p>Hombre</p>
-            <p>Mujer</p>
-            <p>Niños</p>
-            <p>Mas</p>
-        </div>
     </header>
-    <main>
-
+    <main class="main-principal">
         <div id="miCarruselDeLujo" class="carousel slide shadow" data-bs-ride="carousel">
-
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#miCarruselDeLujo" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -59,196 +47,628 @@
                     aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#miCarruselDeLujo" data-bs-slide-to="2"
                     aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#miCarruselDeLujo" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
             </div>
-
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="assets/img/carrousel-1-auto.jpg" class="d-block w-100 object-fit-cover h-100" alt="Auto de Lujo"
-                        style="height: 500px; object-fit: cover;">
-
+                    <img src="assets/img/carrousel-1-auto.jpg" class="d-block w-100 object-fit-cover h-100"
+                        alt="Auto de Lujo" style="height: 500px; object-fit: cover;">
                 </div>
-
                 <div class="carousel-item">
-                    <img src="assets/img/carrousel-2-helicopter.jpg" class="d-block w-100 object-fit-cover h-100" alt="Yate de Lujo"
-                        style="height: 500px; object-fit: cover;">
-
+                    <img src="assets/img/carrousel-2-helicopter.jpg" class="d-block w-100 object-fit-cover h-100"
+                        alt="Yate de Lujo" style="height: 500px; object-fit: cover;">
                 </div>
-
                 <div class="carousel-item">
                     <img src="assets/img/carrousel-3-yate.jpg" class="d-block w-100 object-fit-cover h-100"
                         alt="Helicóptero de Lujo" style="height: 500px; object-fit: cover;">
-
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carrousel-4-messi.jpg" class="d-block w-100 object-fit-cover h-100"
+                        alt="Messi comprando jet" style="height: 500px; object-fit: cover;">
                 </div>
             </div>
-
         </div>
-
-
-        <div class="d-flex justify-content-center flex-wrap text-center">
-
-            <div class="card card-main-header m-3">
-                <img src="assets/img/card-categoria-calzado.jpg" class="card-img-top w-100 img-main" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">50% de descuento</h5>
-                    <a href="#" class="btn btn-primary button-card-login">Ir a oferta</a>
-                </div>
+        <div class="row card-main-categorias justify-content-center px-2">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-lg-4">
+                <a href="#yates">
+                    <div class="card card-main-header">
+                        <img src="assets/img/card-categoria-yates.jpg" class="card-img-top w-100 img-main" alt="banner yates">
+                    </div>
+                </a>
             </div>
-
-            <div class="card card-main-header m-3">
-                <img src="assets/img/card-categoria-indumentaria.jpg" class="card-img-top w-100 img-main" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">50% de descuento</h5>
-                    <a href="#" class="btn btn-primary button-card-login">Ir a oferta</a>
-                </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-lg-4">
+                <a href="#autos">
+                    <div class="card card-main-header">
+                        <img src="assets/img/card-categoria-autos.jpg" class="card-img-top w-100 img-main"
+                            alt="banner autos">
+                    </div>
+                </a>
             </div>
-
-            <div class="card card-main-header m-3">
-                <img src="assets/img/card-categoria-motos.jpg" class="card-img-top w-100 img-main" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">50% de descuento</h5>
-                    <a href="#" class="btn btn-primary button-card-login">Ir a oferta</a>
-                </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-lg-4">
+                <a href="#motos">
+                    <div class="card card-main-header">
+                        <img src="assets/img/card-categoria-motos.jpg" class="card-img-top w-100 img-main" alt="banner motos">
+                    </div>
+                </a>
             </div>
-
-            <div class="card card-main-header m-3">
-                <img src="assets/img/card-categoria-aereos.jpg" class="card-img-top w-100 img-main" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">50% de descuento</h5>
-                    <a href="#" class="btn btn-primary button-card-login">Ir a oferta</a>
-                </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-lg-4">
+                <a href="#aereos">
+                    <div class="card card-main-header">
+                        <img src="assets/img/card-categoria-aereos.jpg" class="card-img-top w-100 img-main" alt="banner aereos">
+                    </div>
+                </a>
             </div>
-
         </div>
 
 
         <div class="container text-center">
             <div class="row">
-                <div class="col-sm-3">slide.</div>
-                <div class="col-sm-9">
-                    <div>
-                        <h3 class="p-3">Productos Destacados</h3>
+                <div class="col-sm-12">
+                    <div id="autos" class="p-3">
+                        <div>
+                            <h3 class="text-gold fw-bold">El camino solo lo construyes vos</h3>
+                        </div>
+                        <br>
+                        <div class="row g-5 p-3">
+                            <div class="col-12 col-sm-6 col-lg-4">
+                                <div class="card card-main">
+                                    <div class="card-body">
+                                        <img src="assets/img/card-auto-1.jpg" class="card-img-top mb-3"
+                                            alt="imagen BMW I7">
+                                        <h5 class="card-title">BMW I7 xDrive60</h5>
+                                        <p class="card-text">Sedan de lujo totalmente electrico del serie 7, destaca su
+                                            opulencia, tecnologia y confort</p>
+                                        <button type="button" class="btn btn-primary button-card-login"
+                                            data-bs-toggle="modal" data-bs-target="#infoVehiculoModalBMW">
+                                            Ver Detalle
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade py-5" id="infoVehiculoModalBMW" tabindex="-1"
+                                aria-labelledby="infoVehiculoModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="infoVehiculoModalLabel">Detalles del Vehículo
+                                                BMW I7
+                                                xDrive60
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Cerrar"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <img src="assets/img/card-auto-1.jpg" class="img-fluid rounded"
+                                                        alt="imagen card">
+                                                </div>
+                                                <div class="col-md-6 modal-body-content">
+                                                    <h4>BMW I7 xDrive60</h4>
+                                                    <div class="estrellas">
+                                                        <span class="puntaje">&#9733;</span>
+                                                        <span class="puntaje">&#9733;</span>
+                                                        <span class="puntaje">&#9733;</span>
+                                                        <span class="puntaje">&#9733;</span>
+                                                        <span class="puntaje">&#9733;</span>
+                                                    </div>
+                                                    <p><strong>Descripción:</strong> Combina la tecnologia y el confort
+                                                        ofreciendo una experencia premium silenciosa y sofisticada.</p>
+                                                    <hr>
+                                                    <h6>Especificaciones Clave:</h6>
+                                                    <ul class="text-start">
+                                                        <li>Motor: Dos motores electricos (uno en cada eje)</li>
+                                                        <li>Potencia: 544 CV / 400kW.</li>
+                                                        <li>Peso: 2770 kg.</li>
+                                                        <li>Color Disponible: A eleccion del cliente</li>
+                                                        <li>Velocidad: 0-100 km/h</li>
+                                                        <li>Bateria: 101.7 kWh</li>
+                                                    </ul>
+                                                    <hr>
+                                                    <div class="d-flex justify-content-center">
+                                                        <p class="precio fw-bold p-2">$200.000 USD</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Seguir
+                                                Navegando</button>
+                                            <a href="./pages/Error404.html" class="btn btn-success">Finalizar Compra</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6  col-lg-4">
+                                <div class="card card-main">
+                                    <div class="card-body">
+                                        <img src="assets/img/card-auto-2.jpg" class="card-img-top mb-3"
+                                            alt="imagen card">
+                                        <h5 class="card-title">PORSCHE GT3 RS</h5>
+                                        <p class="card-text">Un vehiculo de tecnologia alemana para los amantes de la
+                                            velocidad.
+                                        </p>
+                                        <a href="#" class="btn btn-primary button-card-login">Ver detalle</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-4">
+                                <div class="card card-main">
+                                    <div class="card-body">
+                                        <img src="assets/img/card-auto-3.jpg" class="card-img-top mb-3"
+                                            alt="imagen card">
+                                        <h5 class="card-title">AUDI E-TRON GT</h5>
+                                        <p class="card-text">Solo para disfrutar de cada momento, solo par vos.</p>
+                                        <a href="#" class="btn btn-primary button-card-login">Ver detalle</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="row g-3">
-                        <div class="card card-main m-3">
-                            <div class="card-body">
-                                <img src="assets/img/card-auto-1.jpg" class="card-img-top" alt="...">
-                                <h5 class="card-title">Zapatilla Adidas</h5>
-                                <p class="card-text">Zapatilla que te ayudan a correr mas comodo y mas rapido</p>
-                                <a href="#" class="btn btn-primary button-card-login">Seleccionar Talle</a>
+                    <div id="motos" class="p-3">
+                        <div class="row g-5">
+                            <div class="col-12 col-sm-6 col-lg-4">
+                                <div class="card card-main">
+                                    <div class="card-body">
+                                        <img src="assets/img/card-moto-1.jpg" class="card-img-top mb-3"
+                                            alt="imagen card">
+                                        <h5 class="card-title">KAWASAKI Z900</h5>
+                                        <p class="card-text">Motocicleta que combina potencia, diseño agresivo y
+                                            tecnología
+                                            de
+                                            punta.</p>
+                                        <button type="button" class="btn btn-primary button-card-login"
+                                            data-bs-toggle="modal" data-bs-target="#infoVehiculoModal">
+                                            Ver Detalle
+                                        </button>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="card card-main m-3">
-                            <div class="card-body">
-                                <img src="assets/img/Zapatilla.png" class="card-img-top" alt="...">
-                                <h5 class="card-title">Zapatilla Adidas</h5>
-                                <p class="card-text">Zapatilla que te ayudan a correr mas comodo y mas rapido</p>
-                                <a href="#" class="btn btn-primary button-card-login">Seleccionar Talle</a>
+                            <div class="modal fade py-5" id="infoVehiculoModal" tabindex="-1"
+                                aria-labelledby="infoVehiculoModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="infoVehiculoModalLabel">Detalles del
+                                                Vehículo
+                                                KAWASAKI
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Cerrar"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <img src="assets/img/card-moto-1.jpg" class="img-fluid rounded"
+                                                        alt="imagen card">
+                                                </div>
+                                                <div class="col-md-6 modal-body-content">
+                                                    <h4>KAWASAKI Modelo Z900</h4>
+                                                    <div class="estrellas">
+                                                        <span class="puntaje">&#9733;</span>
+                                                        <span class="puntaje">&#9733;</span>
+                                                        <span class="puntaje">&#9733;</span>
+                                                        <span class="puntaje">&#9733;</span>
+                                                        <span>&#9733;</span>
+                                                    </div>
+                                                    <p><strong>Descripción:</strong> Esta es una naked de alto
+                                                        rendimiento,
+                                                        ideal para la ciudad y la carretera. Su motor ofrece una
+                                                        respuesta
+                                                        inmediata y una experiencia de conducción emocionante.</p>
+                                                    <hr>
+                                                    <h6>Especificaciones Clave:</h6>
+                                                    <ul class="text-start">
+                                                        <li>Motor: 948cc, 4 cilindros en línea.</li>
+                                                        <li>Potencia: 125 CV.</li>
+                                                        <li>Peso: 210 kg.</li>
+                                                        <li>Color Disponible: Verde Lima (Lime Green) y Negro.</li>
+                                                    </ul>
+                                                    <hr>
+                                                    <div class="d-flex justify-content-center">
+                                                        <div class="d-flex justify-content-center">
+                                                            <p class="precio fw-bold p-2">$15.990 USD</p>
+                                                        </div>
+                                                    </div>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Seguir
+                                                Navegando</button>
+                                            <a href="./pages/Error404.html" class="btn btn-success">Finalizar
+                                                Compra</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="card card-main m-3">
-                            <div class="card-body">
-                                <img src="assets/img/Zapatilla.png" class="card-img-top" alt="...">
-                                <h5 class="card-title">Zapatilla Adidas</h5>
-                                <p class="card-text">Zapatilla que te ayudan a correr mas comodo y mas rapido</p>
-                                <a href="#" class="btn btn-primary button-card-login">Seleccionar Talle</a>
+                            <div class="col-12 col-sm-6 col-lg-4">
+                                <div class="card card-main">
+                                    <div class="card-body">
+                                        <img src="assets/img/card-moto-2.jpg" class="card-img-top mb-3"
+                                            alt="imagen card">
+                                        <h5 class="card-title">MV AGUSTA SUPERVELOCE</h5>
+                                        <p class="card-text">El viento en tus manos, solo podes ver el futuro</p>
+                                        <a href="#" class="btn btn-primary button-card-login">Ver detalle</a>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="card card-main m-3">
-                            <div class="card-body">
-                                <img src="assets/img/Zapatilla.png" class="card-img-top" alt="...">
-                                <h5 class="card-title">Zapatilla Adidas</h5>
-                                <p class="card-text">Zapatilla que te ayudan a correr mas comodo y mas rapido</p>
-                                <a href="#" class="btn btn-primary button-card-login">Seleccionar Talle</a>
-                            </div>
-                        </div>
-                        <div class="card card-main m-3">
-                            <div class="card-body">
-                                <img src="assets/img/Zapatilla.png" class="card-img-top" alt="...">
-                                <h5 class="card-title">Zapatilla Adidas</h5>
-                                <p class="card-text">Zapatilla que te ayudan a correr mas comodo y mas rapido</p>
-                                <a href="#" class="btn btn-primary button-card-login">Seleccionar Talle</a>
-                            </div>
-                        </div>
-                        <div class="card card-main m-3">
-                            <div class="card-body">
-                                <img src="assets/img/Zapatilla.png" class="card-img-top" alt="...">
-                                <h5 class="card-title">Zapatilla Adidas</h5>
-                                <p class="card-text">Zapatilla que te ayudan a correr mas comodo y mas rapido</p>
-                                <a href="#" class="btn btn-primary button-card-login">Seleccionar Talle</a>
+                            <div class="col-12 col-sm-6 col-lg-4">
+                                <div class="card card-main">
+                                    <div class="card-body">
+                                        <img src="assets/img/card-moto-3.jpg" class="card-img-top mb-3"
+                                            alt="imagen card">
+                                        <h5 class="card-title">MV AGUSTA F3 COMPETIZIONE</h5>
+                                        <p class="card-text">Adrenalina, viento, es lo encuentras con este modelo
+                                        </p>
+                                        <a href="#" class="btn btn-primary button-card-login">Ver detalle</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <h3 class="p-3">Tienda Adidas</h3>
+                    <div id="camionetas" class="p-3">
+                        <div class="row g-5">
+                            <div class="col-12 col-sm-6 col-lg-4">
+                                <div class="card card-main">
+                                    <div class="card-body">
+                                        <img src="assets/img/card-camioneta-1.jpg" class="card-img-top mb-3"
+                                            alt="imagen Ford f150 raptor">
+                                        <h5 class="card-title">FORD F150 RAPTOR</h5>
+                                        <p class="card-text">Pick-up todoterreno de alto rendimiento. Destaca
+                                            por su
+                                            robustez,tecnologia y capacidad extrema.</p>
+                                        <button type="button" class="btn btn-primary button-card-login"
+                                            data-bs-toggle="modal" data-bs-target="#infoVehiculoModalRaptor">
+                                            Ver Detalle
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade py-5" id="infoVehiculoModalRaptor" tabindex="-1"
+                                aria-labelledby="infoVehiculoModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="infoVehiculoModalLabel">Detalles del
+                                                Vehículo FORD
+                                                F150 RAPTOR
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Cerrar"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <img src="assets/img/card-camioneta-1.jpg" class="img-fluid rounded"
+                                                        alt="imagen card">
+                                                </div>
+                                                <div class="col-md-6 modal-body-content">
+                                                    <h4>FORD F150 RAPTOR</h4>
+                                                    <div class="estrellas">
+                                                        <span class="puntaje">&#9733;</span>
+                                                        <span class="puntaje">&#9733;</span>
+                                                        <span class="puntaje">&#9733;</span>
+                                                        <span class="puntaje">&#9733;</span>
+                                                        <span class="puntaje">&#9733;</span>
+                                                    </div>
+                                                    <p><strong>Descripción:</strong>La Ford F150 Raptor,
+                                                        diseñada
+                                                        para uso
+                                                        off-road extremo, que combina gran potencia, suspension
+                                                        reforzada
+                                                    </p>
+                                                    <hr>
+                                                    <h6>Especificaciones Clave:</h6>
+                                                    <ul class="text-start">
+                                                        <li>Motor: V6 EcoBoost biturbo de 3.5L</li>
+                                                        <li>Potencia: 456 CV / 691 Nm.</li>
+                                                        <li>Peso: 3200 kg.</li>
+                                                        <li>Color Disponible: Azul, negro, rojo y blanco</li>
+                                                        <li>Velocidad: 0-100 km/h en 5.5s</li>
+                                                    </ul>
+                                                    <hr>
+                                                    <div class="d-flex justify-content-center">
+                                                        <p class="precio fw-bold p-2">$130.000 USD</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir
+                                            Navegando</button>
+                                        <a href="./pages/Error404.html" class="btn btn-success">Finalizar
+                                            Compra</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-4">
+                                <div class="card card-main">
+                                    <div class="card-body">
+                                        <img src="assets/img/card-camioneta-2.jpg" class="card-img-top mb-3"
+                                            alt="imagen card">
+                                        <h5 class="card-title">NISSAN NAVARA</h5>
+                                        <p class="card-text">Tecnologia japonesa, calidad asegurada</p>
+                                        <a href="#" class="btn btn-primary button-card-login">Ver detalle</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-4">
+                                <div class="card card-main">
+                                    <div class="card-body">
+                                        <img src="assets/img/card-camioneta-3.jpg" class="card-img-top mb-3"
+                                            alt="imagen card">
+                                        <h5 class="card-title">CHEVROLET SILVERADO 1500</h5>
+                                        <p class="card-text">Conford, espacio, calidad probada y sobre todo
+                                            guerrera
+                                        </p>
+                                        <a href="#" class="btn btn-primary button-card-login">Ver detalle</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="row g-3">
-                        <div class="card card-main m-3">
-                            <div class="card-body">
-                                <img src="assets/img/Zapatilla.png" class="card-img-top" alt="...">
-                                <h5 class="card-title">Zapatilla Adidas</h5>
-                                <p class="card-text">Zapatilla que te ayudan a correr mas comodo y mas rapido</p>
-                                <a href="#" class="btn btn-primary button-card-login">Seleccionar Talle</a>
+                    <div id="yates" class="p-3">
+                        <div class="row g-5">
+                            <div>
+                                <h3 class="text-gold fw-bold">Recorre todos los mares</h3>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="card card-main">
+                                        <div class="card-body">
+                                            <img src="assets/img/card-yate-1.jpg" class="card-img-top mb-3"
+                                                alt="imagen card">
+                                            <h5 class="card-title">STAR SEEKER</h5>
+                                            <p class="card-text">El medio natural de esta embarcacion, solo tu
+                                                puedes
+                                                tenerlo
+                                            </p>
+                                            <a href="#" class="btn btn-primary button-card-login">Ver detalle</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="card card-main">
+                                        <div class="card-body">
+                                            <img src="assets/img/card-yate-2.jpg" class="card-img-top mb-3"
+                                                alt="imagen card">
+                                            <h5 class="card-title">AMANGATI</h5>
+                                            <p class="card-text">Aqui solo puedes ser libre, solo junto a la
+                                                verdadera
+                                                paz
+                                            </p>
+                                            <a href="#" class="btn btn-primary button-card-login">Ver detalle</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="card card-main">
+                                        <div class="card-body">
+                                            <img src="assets/img/card-yate-3.jpg" class="card-img-top mb-3"
+                                                alt="imagen card">
+                                            <h5 class="card-title">SEA RAY 510 FLY</h5>
+                                            <p class="card-text">En medio de la semana, solo vos podes
+                                                disfrutarlo
+                                            </p>
+                                            <a href="#" class="btn btn-primary button-card-login">Ver detalle</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="card card-main">
+                                        <div class="card-body">
+                                            <img src="assets/img/card-yate-4.jpg" class="card-img-top mb-3"
+                                                alt="imagen card">
+                                            <h5 class="card-title">NORD</h5>
+                                            <p class="card-text">Lujo y arte son conceptos que solo se encuentra
+                                                aqui
+                                            </p>
+                                            <a href="#" class="btn btn-primary button-card-login">Ver detalle</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="card card-main">
+                                        <div class="card-body">
+                                            <img src="assets/img/card-yate-5.jpg" class="card-img-top mb-3"
+                                                alt="imagen card">
+                                            <h5 class="card-title">PERSHING 50</h5>
+                                            <p class="card-text">Sobrio maduro, y sobre toda las cosas, unico
+                                                como
+                                                vosg
+                                            </p>
+                                            <a href="#" class="btn btn-primary button-card-login">Ver detalle</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="card card-main">
+                                        <div class="card-body">
+                                            <img src="assets/img/card-yate-6.jpg" class="card-img-top mb-3"
+                                                alt="imagen card">
+                                            <h5 class="card-title">HEESEN FUTURISTA</h5>
+                                            <p class="card-text">Lo ultimo en diseño, casi como una obra de arte
+                                            </p>
+                                            <a href="#" class="btn btn-primary button-card-login">Ver detalle</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="card card-main m-3">
-                            <div class="card-body">
-                                <img src="assets/img/Zapatilla.png" class="card-img-top" alt="...">
-                                <h5 class="card-title">Zapatilla Adidas</h5>
-                                <p class="card-text">Zapatilla que te ayudan a correr mas comodo y mas rapido</p>
-                                <a href="#" class="btn btn-primary button-card-login">Seleccionar Talle</a>
+                    </div>
+                    <div id="aereos" class="p-3">
+                        <div class="row ">
+                            <div>
+                                <h3 class="text-gold fw-bold">El cielo es tu límite</h3>
                             </div>
-                        </div>
-                        <div class="card card-main m-3">
-                            <div class="card-body">
-                                <img src="assets/img/Zapatilla.png" class="card-img-top" alt="...">
-                                <h5 class="card-title">Zapatilla Adidas</h5>
-                                <p class="card-text">Zapatilla que te ayudan a correr mas comodo y mas rapido</p>
-                                <a href="#" class="btn btn-primary button-card-login">Seleccionar Talle</a>
-                            </div>
-                        </div>
-                        <div class="card card-main m-3">
-                            <div class="card-body">
-                                <img src="assets/img/Zapatilla.png" class="card-img-top" alt="...">
-                                <h5 class="card-title">Zapatilla Adidas</h5>
-                                <p class="card-text">Zapatilla que te ayudan a correr mas comodo y mas rapido</p>
-                                <a href="#" class="btn btn-primary button-card-login">Seleccionar Talle</a>
-                            </div>
-                        </div>
-                        <div class="card card-main m-3">
-                            <div class="card-body">
-                                <img src="assets/img/Zapatilla.png" class="card-img-top" alt="...">
-                                <h5 class="card-title">Zapatilla Adidas</h5>
-                                <p class="card-text">Zapatilla que te ayudan a correr mas comodo y mas rapido</p>
-                                <a href="#" class="btn btn-primary button-card-login">Seleccionar Talle</a>
-                            </div>
-                        </div>
-                        <div class="card card-main m-3">
-                            <div class="card-body">
-                                <img src="assets/img/Zapatilla.png" class="card-img-top" alt="...">
-                                <h5 class="card-title">Zapatilla Adidas</h5>
-                                <p class="card-text">Zapatilla que te ayudan a correr mas comodo y mas rapido</p>
-                                <a href="#" class="btn btn-primary button-card-login">Seleccionar Talle</a>
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="card card-main">
+                                        <div class="card-body">
+                                            <img src="assets/img/card-aereo-1.jpg" class="card-img-top mb-3"
+                                                alt="imagen card">
+                                            <h5 class="card-title">BELL 525</h5>
+                                            <p class="card-text">Avionica moderna, con terminaciones con gran
+                                                detalle en
+                                                sus
+                                                materiales</p>
+                                            <a href="#" class="btn btn-primary button-card-login">Ver detalle</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="card card-main">
+                                        <div class="card-body">
+                                            <img src="assets/img/card-aereo-2.jpg" class="card-img-top mb-3"
+                                                alt="imagen card">
+                                            <h5 class="card-title">GREAT FLIGHT</h5>
+                                            <p class="card-text">Cuando la tecnologia esta dispusta al servicio
+                                                del
+                                                cliente
+                                            </p>
+                                            <a href="#" class="btn btn-primary button-card-login">Ver detalle</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="card card-main">
+                                        <div class="card-body">
+                                            <img src="assets/img/card-aereo-3.jpg" class="card-img-top mb-3"
+                                                alt="imagen card">
+                                            <h5 class="card-title">AIRBUS H160</h5>
+                                            <p class="card-text">Una empresa al servicio del cliente, y amigable
+                                                con
+                                                el
+                                                medio
+                                                ambiente</p>
+                                            <a href="#" class="btn btn-primary button-card-login">Ver detalle</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="card card-main">
+                                        <div class="card-body">
+                                            <img src="assets/img/card-aereo-4.jpg" class="card-img-top mb-3"
+                                                alt="imagen card">
+                                            <h5 class="card-title">DASSAULT</h5>
+                                            <p class="card-text">Avionica de alto nivel, todo para queel viaje
+                                                sea
+                                                seguro
+                                            </p>
+                                            <a href="#" class="btn btn-primary button-card-login">Ver detalle</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="card card-main">
+                                        <div class="card-body">
+                                            <img src="assets/img/card-aereo-5.jpg" class="card-img-top mb-3"
+                                                alt="imagen card">
+                                            <h5 class="card-title">EMBRAER</h5>
+                                            <p class="card-text">Una empresa lider en el mercado de la aviacion
+                                            </p>
+                                            <a href="#" class="btn btn-primary button-card-login">Ver detalle</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-4">
+                                    <div class="card card-main">
+                                        <div class="card-body">
+                                            <img src="assets/img/card-aereo-6.jpg" class="card-img-top mb-3"
+                                                alt="imagen card">
+                                            <h5 class="card-title">BOEING</h5>
+                                            <p class="card-text">Una empresa con 98 años de experiencia para la
+                                                satisfacion
+                                                del
+                                                cliente</p>
+                                            <a href="#" class="btn btn-primary button-card-login">Ver detalle</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <section id="comentarios" class="text-gold">
+            <h2>Comentarios</h2>
+            <div class="comentario">
+                <div class="perfil">
+                    <img src="assets/img/cara-JeffBezos.jpg" alt="Foto de Jezz Bezos" class="foto-perfil">
+                    <h5>Jeff Bezos</h5>
+                </div>
+                <p>
+                    "La experiencia de adquirir mi nuevo yate a través de esta plataforma fue inigualable.
+                    La
+                    atención
+                    al detalle y la profesionalidad superaron todas mis expectativas. ¡Recomendado para los
+                    amantes
+                    del
+                    lujo y la velocidad!"
+                </p>
+            </div>
+            <div class="comentario destacado">
+                <div class="perfil">
+                    <img src="assets/img/cara-cristianoRonaldo.jpg" alt="Foto de Cristiano Ronaldo" class="foto-perfil">
+                    <h5>Cristiano Ronaldo</h5>
+                </div>
+                <p>
+                    "Siempre busco la excelencia, y aquí la encontré. Mi nuevo deportivo es una maravilla, y
+                    el
+                    proceso
+                    de compra fue tan fluido como el motor del auto. ¡Un servicio de cinco estrellas! Un
+                    verdadero
+                    *game
+                    changer* en el sector de vehículos exclusivos."
+                </p>
+            </div>
+            <div class="comentario">
+                <div class="perfil">
+                    <img src="assets/img/cara-BillGates.jpg" alt="Foto de Bill Gates" class="foto-perfil">
+                    <h5>Bill Gates</h5>
+                </div>
+                <p>
+                    "He comprado varios vehículos de alta gama en línea, pero ninguno con el servicio de
+                    aquí.
+                    Mi
+                    jet
+                    llegó impecable. Una experiencia verdaderamente premium y sin complicaciones."
+                </p>
+            </div>
+        </section>
     </main>
     <footer class="footer-main">
         <div class="container text-center">
-            <div class="row align-items-start">
+            <div class="row align-items-center">
                 <a href="index.html" class="col-lg-4 nav-main-img"></a>
-                <div class="col-md-6 col-lg-4">
-                    <p>REDES SOCIALES:</p>
+                <div class="col-md-6 col-lg-4 d-flex flex-column text-center footer-redes">
+                    <h3 class="text-gold">Redes sociales</h3>
                     <a href="https://www.facebook.com/?stype=lo&flo=1&deoia=1&jlou=Afhx3Yf0gK3NKfguYFf_MPbV2chGqNkx5kBo6uY6NWAJGwAm3G82ygQ81g3Er3ckSZJ7B8C5bP21qJ8G2dzWg_NRaF-YxUqhl67li7y6jsrJjw&smuh=47521&lh=AdAigKoIWv38APRQnfw"
-                        target="_blank">Facebook</a>
-                    <a href="https/:.." target="_blank">X</a>
-                    <a href="https/:.." target="_blank">Instagram</a>
+                        class="text-decoration-none text-start footer-redes-facebook"><i
+                            class="bi bi-facebook icono-header"></i>@Mag.Tuc</a>
+                    <a href="https/:.." class="text-decoration-none text-start footer-redes-twitter"><i
+                            class="bi bi-twitter-x icono-header"></i>@Mag.Tuc</a>
+                    <a href="https/:.." class="text-decoration-none text-start footer-redes-instagram"><i
+                            class="bi bi-instagram icono-header"></i>@Mag.Tuc</a>
+                    <a href="https/:.." class="text-decoration-none text-start footer-redes-whatsapp"><i
+                            class="bi bi-whatsapp icono-header"></i>+54 11 2345-6789</a>
                 </div>
                 <div class=" col-sm-12 col-md-6 col-lg-4">
-                    <h3>Informacion:</h3>
-                    <P>Todas nuestras sucursales se encuentran en todo en pais.</P>
+                    <h3><a href="pages/nosotros.html" class="text-decoration-none text-gold">Sobre Nosotros</a></h3>
+                    <P><strong>MAQ</strong> es tu punto de encuentro para la compra y venta de vehículos de todo tipo.
+                        Desde autos y
+                        motos hasta aviones, helicópteros y embarcaciones, ofrecemos soluciones pensadas para quienes
+                        buscan potencia, tecnología y confianza. Conectamos a compradores y vendedores en un espacio
+                        seguro, moderno y transparente, llevando tu próxima experiencia de movilidad al siguiente nivel.
+                    </P>
+                    <p>New York, Hong Kong, Sidney, Buenos Aires, Londres.</p>
                 </div>
             </div>
         </div>
@@ -257,5 +677,4 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
 </body>
-
 </html>

@@ -1,7 +1,7 @@
 🏀🏃‍♂️ E-Commerce de Indumentaria Deportiva
 
-Este proyecto es un e-commerce de indumentaria deportiva desarrollado como trabajo práctico para la academia Rolling Code School.
-El objetivo es aplicar conocimientos de HTML, CSS, JavaScript, diseño responsive y buenas prácticas de desarrollo web creando una tienda funcional, moderna y fácil de usar.
+Este proyecto es un e-commerce de venta de vehiculos de alta gama desarrollado como trabajo práctico para la academia Rolling Code School.
+El objetivo es aplicar conocimientos de HTML, CSS, diseño responsive y buenas prácticas de desarrollo web creando una tienda funcional, moderna y fácil de usar.
 
 🚀 Funcionalidades Principales
 
@@ -25,15 +25,15 @@ El objetivo es aplicar conocimientos de HTML, CSS, JavaScript, diseño responsiv
 
 Proyecto desarrollado por el grupo:
 
-Miguel
+Miguel Veliz
 
-Joaquín
+Joaquín Sosa
 
-Jonas
+Jonas Delgado
 
-Gonzalo
+Gonzalo Orellana
 
-Carlos
+Carlos Vishi
 
 Cada uno aportó en distintas áreas del desarrollo, diseño e implementación de la tienda.
 
@@ -47,4 +47,4 @@ Trello
 
 Git & GitHub
 
-Figma (diseño)
+Photoshop (diseño)
